@@ -1,0 +1,11 @@
+app.get('/', function(request, response) {
+    if (request.session.loggedin) {
+        if (request.session.isadmin) {
+            return response.sendFile(path.join(__dirname + '/../public/admin/admin.html'));
+        } else {
+            return response.sendFile(path.join(__dirname + '/../public/landing/index.html'));
+        }
+    } else {
+        response.sendFile(path.join(__dirname + '/../public/login/login.html'));
+    }
+});

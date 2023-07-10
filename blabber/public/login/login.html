@@ -1,0 +1,44 @@
+<!-- pusher-event-chat/public/login/login.html -->
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width,minimum-scale=1">
+            <title>Login</title>
+            <!-- the form awesome library is used to add icons to our form-->
+            <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+            <link href="./login.css" rel="stylesheet" type="text/css">
+            <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+            <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
+            <script src="https://kit.fontawesome.com/60828a1f06.js" crossorigin="anonymous"></script>
+            <script src="https://apis.google.com/js/platform.js" async defer></script>
+            <meta name="google-signin-client_id" content="347482584039-le2jttu9q1g618s510ssi2fmah6j3419.apps.googleusercontent.com">
+        </head>
+        <body>
+            <div class="login">
+                <h1><i class="fa-solid" style="font-size: 24pt; letter-spacing: .2rem"> Login </i></h1>
+                <form action="http://blabberchat.asuscomm.com:3000/index.html" method="GET">
+                    <!--find out how to link html to forms-->
+                    <label for="email">
+                        <i class="fas fa-user"></i>
+                    </label>
+                    <input type="email" name="email" placeholder="Email" id="email" required>
+                    <label for="ticket">
+                        <i class="fas fa-lock"></i>
+                    </label>
+                    <input type="password" name="password" placeholder="Password" id="ticket" required>
+                    <!--
+                    I would love to have Google sign in, but I don't think that it'll be an immediate thing
+                    <div class="g-signin2 fa-solid" data-onsuccess="onSignIn"></div>
+                    -->
+                    <input type="submit" value="Login" class="fa-solid" style="letter-spacing: .2rem">
+                </form>
+                <form action="/public/forgot/forgot.html" method="POST">
+                    <input type="submit" id="forgot_password" value="Forgot Password?" class="fa-solid" style="letter-spacing: .2rem">
+                </form>
+                <form action="/public/register/register.html" method="POST">
+                    <input type="submit" id="register" value="Register" class="fa-solid" style="letter-spacing: .2rem">
+                </form>
+            </div>
+        </body>
+    </html>

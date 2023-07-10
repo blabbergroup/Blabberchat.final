@@ -1,0 +1,141 @@
+html{
+    background: #a6a6a6;
+}
+
+.center {
+
+    margin: 0 auto;
+
+}
+
+.alert {
+
+    font-style: italic;
+
+    width:100%;
+
+    margin: 0 auto;
+    text-align: center;
+
+    color:#313131;
+    font-size:45px;
+    font-weight: bold;
+    letter-spacing: .2rem;
+    position: absolute;
+    -webkit-animation:colorchange 20s infinite alternate;
+
+
+}
+
+@-webkit-keyframes colorchange {
+    0% {
+
+        color: blue;
+    }
+
+    10% {
+
+        color: #8e44ad;
+    }
+
+    20% {
+
+        color: #1abc9c;
+    }
+
+    30% {
+
+        color: #d35400;
+    }
+
+    40% {
+
+        color: blue;
+    }
+
+    50% {
+
+        color: #34495e;
+    }
+
+    60% {
+
+        color: blue;
+    }
+
+    70% {
+
+        color: #2980b9;
+    }
+    80% {
+
+        color: #f1c40f;
+    }
+
+    90% {
+
+        color: #2980b9;
+    }
+
+    100% {
+
+        color: pink;
+    }
+}
+#Welcome{
+    font-size: 25px;
+    letter-spacing: .2rem;
+    color: #5d1725;
+}
+
+#page_top {
+    letter-spacing: 2px;
+    background:#5d1725;
+    color: #5d1725;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    padding-top: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    align-content: center;
+    text-align: left;
+}
+#container{
+    text-align: center;
+    align-content: center;
+}
+#submit_login{
+    align-content: center;
+    text-align: center;
+    background:#5d1725;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    padding: 3px 4px;
+}
+#register, #cancel, #forgot_psw{
+    background-color: #5d1725;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    padding: 3px 4px;"
+}
+#forgot, #success, #you_made_it{
+    letter-spacing: 4px;
+    background:#5d1725;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    padding: 3px 4px;
+    text-align: center;
+    top: 50%;
+}
+#di{
+    letter-spacing: 2px;
+    background:#5d1725;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    padding: 3px 4px;
+}

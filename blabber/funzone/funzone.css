@@ -1,0 +1,20 @@
+html{
+    background: #a6a6a6;
+}
+
+#information {
+    margin: auto;
+    align-self: center;
+    font-size: 25px;
+    letter-spacing: .2rem;
+    color: #5d1725;
+}
+
+#dino {
+    letter-spacing: 2px;
+    background:#5d1725;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    padding: 3px 4px;
+}

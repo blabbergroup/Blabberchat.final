@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <title>Login</title>
+    <!-- the form awesome library is used to add icons to our form -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="./forgot.css" rel="stylesheet" type="text/css">
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/60828a1f06.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="login">
+    <h1><i class="fa-solid" style="font-size: 20pt; letter-spacing: .2rem"> Forgot Password </i></h1>
+    <form action="/public/login/login.html" method="POST"><!--find out how to link html to forms-->
+        <label for="email">
+            <i class="fas fa-envelope"></i>
+        </label>
+        <input type="email" name="email" placeholder="Email" id="email" required>
+        <small id="emailHelp" class="form-text text-muted">We will never share your email with anyone else.</small>
+        <input type="submit" name="password-reset-token" class="btn btn-primary fa-solid" style="letter-spacing: .2rem" value="Submit">
+
+</div>
+</body>
+</html>
+

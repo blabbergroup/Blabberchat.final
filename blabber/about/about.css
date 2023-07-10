@@ -1,0 +1,14 @@
+html{
+    background: #a6a6a6;
+}
+
+.column {
+    float: left;
+    width: 20%;
+}
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}

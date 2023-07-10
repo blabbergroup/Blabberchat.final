@@ -1,0 +1,40 @@
+{
+  "name": "blabber",
+  "version": "1.0.0",
+  "description": "Real Time Chat",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server",
+    "peer": "peerjs -p 3001 -k blabber-chat peerServer.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "debug": "^4.3.4",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "js-sha512": "^0.8.0",
+    "jsdom": "^20.0.2",
+    "moment": "^2.29.4",
+    "mysql": "^2.18.1",
+    "peer": "^0.6.1",
+    "peerjs": "^1.4.7",
+    "save": "^2.9.0",
+    "socket.io": "^4.5.4",
+    "socket.io-client": "^4.5.4",
+    "uuid": "9.0",
+    "ws": "^8.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "optionalDependencies": {
+    "bufferutil": "^4.0.7",
+    "utf-8-validate": "^5.0.10"
+  }
+}
