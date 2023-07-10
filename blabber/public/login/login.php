@@ -10,9 +10,9 @@ $userName = $_POST["username"];
 
 $host = NULL;
 $port = 3306;
-$dbname = 'eventdb';
-$user = 'Mathen';
-$pass = 'SackMathen_0';
+$dbname = 'somethingdb';
+$user = 'user1';
+$pass = 'pass';
 $charset = 'utf8mb4';
 
 $dbc = mysqli_connect($host, $user, $pass, $dbname);
